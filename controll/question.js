@@ -104,7 +104,11 @@ car.controller("carControl", function($scope,$document) {
                 clearInterval(myTime);
                 clearInterval(carTime);
                 //alert($scope.round+"  "+ $scope.distance)
-                $scope.dist[$scope.round].dt.push($scope.distance.toFixed(2)+'m');
+                if($scope.dist[$scope.round]==undefined){
+                    $scope.dist[$scope.round] = {id:$scope.round,dt:[$scope.distance.toFixed(2)+'m']};
+                }else{
+                    $scope.dist[$scope.round].dt.push($scope.distance.toFixed(2)+'m');
+                }
                 $scope.round++;
                 $scope.imgs = 'img/none.png';
                 $scope.sts = "测试结束，等待开始";
