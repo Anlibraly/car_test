@@ -17,7 +17,7 @@ car.controller("carControl", function($scope,$document) {
     $scope.distance_tmp = 15;
     $scope.opens = 0;
     $scope.times = 3;
-    $scope.dis_time = 5;
+    $scope.dis_time = 10;
     $scope.v1 = 20;
     $scope.v2 = 20;
     $scope.a1 = 0;
@@ -132,7 +132,7 @@ car.controller("carControl", function($scope,$document) {
                                         $scope.round++;
                                         $scope.imgs = 'img/none.png';
                                         $scope.sts = "测试结束，等待开始";
-                                        $scope.$apply();
+                                        //$scope.$apply();
                                      };
                                 }, 10);
     };
