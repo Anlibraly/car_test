@@ -165,7 +165,7 @@ car.controller("carControl", function($scope,$document) {
                  }else{
                     $scope.imgs = 'img/middle.png';
                  }
-                 $scope.$apply(); // 通知视图模型的变化
+                 //$scope.$apply(); // 通知视图模型的变化
             }, 100);        
     };
 
