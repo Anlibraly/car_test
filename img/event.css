@@ -1,0 +1,146 @@
+header{
+	position: relative;
+}
+header a{
+	display: block;
+}
+header h1{
+	font-size: 18px;
+	text-align: center;
+	padding: 0.32rem 0.267rem;
+}
+[data-dpr="2"] header h1{
+	font-size:36px ;
+}
+[data-dpr="3"] header h1{
+	font-size:54px ;
+}
+.pull_left{
+	float: left;
+}
+.pull_right{
+	float: right;
+}
+.icon_back{
+	position: absolute;
+	padding: 0.32rem 0.267rem;
+}
+.icon_back img{
+	width: 0.347rem;
+	height: 0.587rem;
+}
+.icon_zan{
+	position: absolute;
+	padding: 0.32rem 0.267rem;
+	right: 0;
+	top: 0;
+}
+.icon_zan img{
+	width: 0.613rem;
+	height: 0.547rem;
+}
+.icon_menu{
+	position: absolute;
+	padding-top: 0.093rem;
+	margin: 0.32rem 0.267rem;
+}
+.icon_menu img{
+	display: inline-block;
+	width: 0.653rem;
+	height: 0.413rem;
+	
+}
+.icon_location{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.icon_location img{
+	display: inline-block;
+	width: 0.493rem;
+	height: 0.613rem;
+	margin: 0.32rem 0.267rem;
+}
+.gap{
+	height: 0.267rem;
+	background-color: #ebebeb;
+	border-top:1px solid #d2d2d2 ;
+}
+/**/
+.list_date{
+    font-size: 15px;
+    background-color: #eee;
+    color: #8a8a8a;
+    height: 1rem;
+    border-left: 0.133rem solid #c4c4c4;
+    padding-left: 0.4rem;
+    line-height: 1rem;
+}
+[data-dpr="2"] .list_date{
+	font-size:30px ;
+}
+[data-dpr="3"] .list_date{
+	font-size:45px ;
+}
+.list_week{
+	margin-left: 0.293rem;
+}
+.event_list{
+	font-size: 15px;
+}
+[data-dpr="2"] .event_list{
+	font-size:30px ;
+}
+[data-dpr="3"] .event_list{
+	font-size:45px ;
+}
+.list_item{
+	margin:0 0.467rem;
+	border-left: 1px solid red;
+	position: relative;
+}
+.list_date_time{
+	float: left;
+	margin-left: 0.307rem;
+	color: #797979;
+}
+.event_title{
+	float: left;
+	width: 5.97rem;
+	margin-left: 0.413rem;
+	padding: 0.64rem 0;
+	color: #434343;
+}
+.zan{
+	width: 0.7rem;
+	text-align: center;			
+}
+.zan img{
+	display: inline-block;
+	width: 0.373rem;
+	height: 0.32rem;
+}
+.bottom_line{
+	clear: both;
+	width: 100%;
+	height: 1px;
+	background-color: red;
+}
+.cycle{
+width: 0.08rem;
+height: 0.08rem;
+background-color:#FFF;
+border-radius: 100%;
+border: 0.04rem solid #50d2c1;
+position: absolute;
+left: -0.08rem;
+}
+.img_list{
+	margin-top: 0.32rem;
+}
+.img_list img{
+	display: inline-block;
+	width: 2.25rem;
+	height: 1.32rem;
+	margin-right: 0.147rem;
+}

@@ -1,0 +1,95 @@
+/*CSS源代码*/
+body { margain: 0; border: 0; padding: 0; }
+.wrap{ text-align: center;}
+#circle {
+    width: 40px;
+    height: 40px;
+    background: red;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+#records td{
+	    border: 1px solid #ABABAB;
+}
+.bic { width: 290px; height: 230px; margin: 50px auto; position: relative; }
+/*卡通车顶*/
+.b-cd { width: 230px; height: 94px; background: #c0df81; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius:5px 47px; border-bottom-right-radius: 5px 47px; position: relative; background: linear-gradient(to right, #a7ce8b, #b5dd84); overflow: hidden; z-index: 1; margin: 0 auto; }
+
+/*卡通车挡风玻璃框
+.b-cd:after { display: block; position: absolute; top: 10px; left: 5px; width: 220px; height: 84px; background: #73a874; border-top-left-radius:110px; border-top-right-radius:110px; border-bottom-left-radius:5px 68px; border-bottom-right-radius: 5px 68px; content: ""; z-index: 1; }
+
+/*卡通车挡风玻璃
+.b-cd:before { display: block; position: absolute; top: 15px; left: 10px; width: 210px; height: 80px; background: #c0df81; border-top-left-radius: 117px 117px; border-top-right-radius: 117px 117px; border-bottom-left-radius: 5px 68px; border-bottom-right-radius: 5px 68px; content: ""; z-index: 2; background: linear-gradient(to right, #a8d089, #8dcc86); }
+
+/*卡通车眼睛框
+.b-cd .eyes { position: absolute; z-index: 4; width: 212px; height: 60px; left: 9px; top: 40px; }
+
+/*卡通车左眼
+.b-cd .eyes:after { display: block; content: ""; position: absolute; background: #fffcff; width: 110px; height: 65px; top: -12px; left: 0; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top: 3px solid #000;  transform: rotate(-10deg);}
+
+/*卡通车右眼
+.b-cd .eyes:before { display: block; content: ""; position: absolute; background: #fffcff; width: 110px; height: 65px; top: -17px; right: 0px; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius:30px; border-bottom-right-radius: 30px; border-top: 3px solid #000;  background: linear-gradient(to right, #fff, #f6f6f6, #e9e9e9);}
+
+/*卡通车眼睛后阴影
+.b-cd .eyes-bed { position: absolute; z-index: 3; width: 212px; height: 60px; left: 9px; top: 40px; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; }
+
+/*卡通车左眼阴影
+.b-cd .eyes-bed:after { display: block; content: ""; position: absolute; background: #70a674; width: 110px; height: 65px; top: -15px; left: 0; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; transform: rotate(-10deg); }
+
+/*卡通车右眼阴影
+.b-cd .eyes-bed:before { display: block; content: ""; position: absolute; background: #70a674; width: 110px; height: 65px; top: -20px; right: 0px; border-top-left-radius:100px; border-top-right-radius:100px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; }
+
+/*卡通车眼珠子
+.b-cd .eyes i { display: block; position: absolute; width: 30px; height: 30px; border-radius: 15px; background: #000; z-index: 999; }
+.b-cd .eyes i.le { left: 50px; top: 7px; }
+.b-cd .eyes i.re { right: 50px; top: 10px; }
+.b-cd .eyes i.le:before, .b-cd .eyes i.re:before { display: block; content: ""; position: absolute; width: 5px; height: 5px; border-radius: 5px; background: #fff; top: 18px; left: 3px; }
+
+/*卡通车车身*/
+.b-mo { width: 290px; height: 89px; padding-top: 1px; position: relative; z-index: 2; background: linear-gradient(to right, #a7ce8b, #b5dd84, #a7ce8b); border-top-left-radius: 90px 70px; border-top-right-radius:90px 70px; border-bottom-left-radius: 80px; border-bottom-right-radius: 80px; margin-top: -6px; }
+
+/*卡通车车身上半部*/
+.b-mo:after { display: block; content: ""; position: absolute; top: -8px; background: #bedf8e; left: 10px; width: 270px; height: 80px; background: linear-gradient(to right, #a7ce8b, #b5dd84, #a7ce8b); border-radius: 145px/40px; }
+
+/*卡通车车身上半部分*/
+.b-mo:before { display: block; content: ""; position: absolute; bottom: -10px; background: #bedf8e; left: 10px; width: 270px; height: 80px; background: linear-gradient(to right, #a7ce8b, #b5dd84, #a7ce8b); border-radius: 145px/40px; }
+
+/*卡通车嘴巴
+.b-mo .mouth { width: 180px; height: 60px; background: #000; border:3px solid #7fb083; margin: 16px auto 0 auto; border-radius: 30px 30px 90px 90px; position: relative; z-index: 999; overflow: hidden; }
+
+/*卡通车牙齿
+.b-mo .mouth .teeth { width: 200px; margin: -3px 0 0 -7px; }
+.b-mo .mouth .teeth i { display: block; width: 30px; height: 30px; background: #fff; border-radius: 5px; float: left; margin: 0 1px; }
+.b-mo .mouth .teeth i.mg-1 { margin-top: -6px; }
+.b-mo .mouth .teeth i.mg-2 { margin-top: -5px; }
+.b-mo .mouth .teeth i.mg-3 { margin-top: -8px; }
+.b-mo .mouth .teeth i.mg-4 { margin-top: -3px; }
+.b-mo .mouth .teeth i.mg_3 { margin-top: 8px; }
+.b-mo .mouth .teeth i.mg_4 { margin-top: 3px; }
+.b-mo .mouth .teeth i.mg-deg1 { transform: rotate(10deg); }
+.b-mo .mouth .teeth i.mg-deg-1 { transform: rotate(-10deg); }
+
+/*卡通车下排牙齿
+.b-mo .mouth .teeth2 { width: 200px; margin: 37px 0 0 5px; }
+.b-mo .mouth .teeth2 i { width: 26px; }
+
+/*卡通车后视镜*/
+.b-mo .l-mirror,.b-mo .r-mirror{ width:30px; height:30px; position:absolute; background: radial-gradient(#bbdd86, #8fc787);}
+.b-mo .l-mirror{ left:-6px; top:-18px; border-radius:15px 10px 8px 8px; transform:rotate(3deg);}
+.b-mo .r-mirror{ right:-6px; top:-18px; border-radius:10px 15px 8px 8px; transform:rotate(-3deg);}
+
+/*卡通车车灯*/
+.b-mo .l-lamp,.b-mo .r-lamp{width:30px; height:20px; position:absolute; background:#fff; z-index:999; border-radius:15px/10px;}
+.b-mo .l-lamp{left:16px; top:16px; }
+.b-mo .r-lamp{right:16px; top:16px; }
+
+/*卡通车车轮*/
+.b-mo .l-tire,.b-mo .r-tire{ background:#727071; width:76px; height:50px; border-radius:15px; border:0px solid #666465; position:absolute; z-index:-1; background: linear-gradient(#676767,#676767, #282828); box-shadow:0px 2px 2px #888888;}
+.b-mo .l-tire{left:25px; bottom:-28px; }
+.b-mo .r-tire{right:25px; bottom:-28px; }
+
+/*卡通车车底阴影*/
+.shadow{ width:240px; height:16px; border-radius:115px/8px; background:#c9c7d2; position:absolute; bottom:15px; left:25px; opacity:0.3;}
+
